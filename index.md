@@ -20,7 +20,11 @@ In my pursuit of a computer science career, I have gained proficiency in program
 
 My work history in the telecommunications field since 2011 has provided me with valuable hands-on experience in installing, troubleshooting, and repairing a wide range of telecommunication services and technologies. This experience has honed my ability to collaborate with other technicians, manage daily workloads efficiently, and provide exceptional customer service. It has also given me a keen ability to troubleshoot complex problems that arise within any field that I am working in.
 
+<<<<<<< Updated upstream
 My technical skills include Cat3-6 wiring, digital and analog volt/ohm meters, copper and fiber telephony cabling, HST3000 meters, TDR and OTDR, light meters, and TCP/IP troubleshooting. I also have experience using 3M Dynatel cable locators.
+=======
+My technical skills include Cat3-6 wiring, digital and analog volt/ohm meters, copper and fiber cabling, HST3000 meters, TDR and OTDR, light meters, and TCP/IP troubleshooting. I also have experience using 3M Dynatel cable locators.
+>>>>>>> Stashed changes
 
 As a current computer science student at the University of Central Florida, I am excited to leverage my education, work experience, and technical skills to contribute to the success of innovative organizations in the computer science field.
 
