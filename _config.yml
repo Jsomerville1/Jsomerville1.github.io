@@ -96,7 +96,7 @@ lang: en-GB # Set the site language
 title: "Portfolio - Joseph Somerville" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Joseph Somerville's Portfolio" # Site description and default description, also used in jekyll-seo-tag
-url: "jsomerville1.github.io" # Site url, also used in jekyll-seo-tag
+url: "" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "jsomerville1.github.io"
 email: "joseph.somerville01@gmail.com"
