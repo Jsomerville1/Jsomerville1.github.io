@@ -97,7 +97,7 @@ title: "Portfolio - Joseph Somerville" # Site name or title, also used in jekyll
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Joseph Somerville's Portfolio" # Site description and default description, also used in jekyll-seo-tag
 url: "jsomerville1.github.io" # Site url, also used in jekyll-seo-tag
-baseurl: "josephsomerville.net"
+baseurl: "jsomerville1.github.io"
 repo: "https://github.com/daviddarnes/alembic"
 email: "joseph.somerville01@gmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
