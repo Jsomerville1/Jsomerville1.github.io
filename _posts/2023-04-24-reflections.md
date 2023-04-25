@@ -1,8 +1,7 @@
 ---
-title: Description of an Alembic
+title: Reflections on Creating my Portfolio Website
 categories:
 - General
-- External sources
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 
