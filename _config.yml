@@ -124,8 +124,11 @@ navigation_header:
 - title: Home
   url: /
 - title: Blog
-  url: /blog
-
+  url: /blog/
+- title: Elements
+  url: /elements/
+- title: Categories
+  url: /categories/
 
 navigation_footer:
 - title: Theme created by David Darnes
