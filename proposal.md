@@ -10,7 +10,7 @@ Below you will find a writing sample in the form of a research grant proposal. T
 
 #### Title
 
-###### "Streamlining UCF Transportation: An AI Approach to Campus Traffic Flow Improvement"
+ "Streamlining UCF Transportation: An AI Approach to Campus Traffic Flow Improvement"
 
 #### Background and Significance
 
