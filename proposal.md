@@ -107,4 +107,4 @@ Research report and presentation preparation:
 Miscellaneous expenses:
 * Travel costs for data collection: $300
 * Contingency fund for unexpected expenses: $300
-Total Budget: $1,500.00
+* Total Budget: $1,500.00
