@@ -2,7 +2,7 @@
 title: Resume
 feature_text: |
 feature_image: "https://picsum.photos/2560/600?image=880"
-excerpt: "Resume"
+excerpt:
 aside: false
 ---
 
