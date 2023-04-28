@@ -2,7 +2,7 @@
 title: Resume
 feature_text: |
  Joseph Somerville - Resume
-feature_image: "https://picsum.photos/2560/600?image=876"
+feature_image: "https://picsum.photos/2560/600?image=880"
 excerpt: "Resume"
 aside: false
 ---

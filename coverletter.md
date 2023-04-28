@@ -2,7 +2,7 @@
 title: Cover Letter
 feature_text: |
  Joseph Somerville - Cover Letter
-feature_image: "https://picsum.photos/2560/600?image=874"
+feature_image: "https://picsum.photos/2560/600?image=884"
 excerpt: "Cover Letter"
 aside: false
 ---
