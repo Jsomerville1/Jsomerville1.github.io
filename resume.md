@@ -13,8 +13,8 @@ aside: false
 
 
 ###### University of Central Florida
-' 08/2022 - Present
- Bachelors of Computer Science '
+` 08/2022 - Present
+ Bachelors of Computer Science `
 
 ###### Lake-Sumter State College- Leesburg, FL
 2006/2021-2022
