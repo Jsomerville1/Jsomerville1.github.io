@@ -1,6 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="53" height="52" viewBox="-10 -10 53 52">
-  <g fill="#05BF85" fill-rule="evenodd">
-    <path d="M20.14 2.13L33 10l-1 2-6.65-3.08a12.99 12.99 0 0 1-3 13.1l1.65 9.3c.07.38-.2.68-.57.68h-.74a.86.86 0 0 1-.81-.68l-1.36-7.71A12.93 12.93 0 0 1 14 25.96v5.34a.7.7 0 0 1-.7.7h-.6a.7.7 0 0 1-.7-.7v-5.34a12.93 12.93 0 0 1-6.5-2.35l-1.37 7.71a.86.86 0 0 1-.81.68h-.73a.56.56 0 0 1-.58-.68l1.64-9.29a13 13 0 0 1 16.49-19.9zM13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22z"/>
-    <path fill-opacity=".44" d="M13 24a11 11 0 0 0 11-11s-22-.1-22 0a11 11 0 0 0 11 11z"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="55.738 35.656 90.984 88.934" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <rect x="73.77" y="42.213" width="52.049" height="53.689" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" rx="11.475" ry="11.475" transform="matrix(1, 0, 0.025833, 1, -1.77841, 0)" bx:origin="0.256 0.496"/>
+  <rect x="73.361" y="97.541" width="52.869" height="21.721" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" rx="6.148" ry="6.148" transform="matrix(1, 0, 0.025833, 1, -1.77841, 0)" bx:origin="0.26 -1.321"/>
+  <rect x="78.688" y="46.721" width="41.805" height="43.032" style="stroke: rgb(0, 0, 0);" rx="2.869" ry="2.869" transform="matrix(1, 0, 0.025833, 1, -1.77841, 0)" bx:origin="0.201 0.514"/>
+  <rect x="104.098" y="109.836" width="18.033" height="2.869" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(1, 0, 0.025833, 1, -1.77841, 0)" bx:origin="-0.943 -14.285"/>
+  <rect x="77.459" y="112.705" width="4.098" height="3.279" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" transform="matrix(1, 0, 0.025833, 1, -1.77841, 0)" bx:origin="2.35 -13.374"/>
 </svg>
