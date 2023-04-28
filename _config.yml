@@ -131,6 +131,8 @@ navigation_header:
   url: /coverletter/
 - title: Resume
   url: /resume/
+- title: Proposal Sample
+  url: /proposal/
 
 navigation_footer:
 - title: Theme created by David Darnes
