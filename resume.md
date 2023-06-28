@@ -57,14 +57,14 @@ Graduation 2006
 * Software: Word, Excel, PowerPoint. Visual Studio Code, IntelliJ, CodeBlocks, Github, Photoshop
 * Technology and accessories: POTS, VDSL, ADSL (xDSL, bonded), ADSL2+, Cat5, Cat5e, Cat6, digital and analog Volt/Ohm meters, copper cable, TDR and OTDR, TCP/IP troubleshooting
 
-o	Experience with Python, Java, and C programming languages
-o	HTML, CSS, and some JavaScript experience – portfolio website www.josephsomerville.net
-o	Installation, repair, and support for Mac, PC, Wi-fi and general electronics including printers, badge printers, and door access systems
-o	Wire Crimping, soldering, stripping, and tie wrapping cabling
-o	Multi-meter experience (digital and analog volt/ohm meters)
-o	Knowledge of basic electrical theory
-o	Experience mounting and installing DC power supplies for fiber optic installations
-o	Trained in working at height and in confined spaces.
-o	Analyze and understand technical drawings, cable maps, blueprints
-o	Knowledge of telecom color code (fiber, copper)
+*	Experience with Python, Java, and C programming languages
+*	HTML, CSS, and some JavaScript experience – portfolio website www.josephsomerville.net
+*	Installation, repair, and support for Mac, PC, Wi-fi and general electronics including printers, badge printers, and door access systems
+*	Wire Crimping, soldering, stripping, and tie wrapping cabling
+*	Multi-meter experience (digital and analog volt/ohm meters)
+*	Knowledge of basic electrical theory
+*	Experience mounting and installing DC power supplies for fiber optic installations
+*	Trained in working at height and in confined spaces.
+*	Analyze and understand technical drawings, cable maps, blueprints
+*	Knowledge of telecom color code (fiber, copper)
 
