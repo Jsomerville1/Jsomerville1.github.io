@@ -9,7 +9,7 @@ aside: false
 ##### Education 
 
 ###### University of Central Florida
- 08/2022 - Present 
+ 08/2022 - Present - Expected Graduation Approx Spring 2025
     Bachelors of Computer Science 
 
 
@@ -22,7 +22,6 @@ aside: false
 ###### Leesburg High School- Leesburg, FL
 Graduation 2006
  Highschool Diploma
- Drafting 1 – 3 (Drafting, Auto CAD, Modeling)
 
 ##### Work History
 ###### Wise Connect - Clermont, FL
@@ -51,8 +50,21 @@ Graduation 2006
 *	Provide service and coordinate with customers to resolve issues related to telephone and internet products
 *	Install and repair POTS, ADSL, and IPTV services
 
-##### Skills
-*   Programming Languages: Python, C
-*   Operating Systems: Microsoft Windows, Mac OS
-*   Software: Microsoft Office products – Word, Excel, Outlook, PowerPoint, Visual Studio Code, Code Blocks
-*   Technology and accessories: POTS, VDSL, ADSL (xDSL, bonded), ADSL2+, IPTV, fiber optics, Cisco diagnostics, Cat3, Cat5, Cat5e, Cat6 (install, repair, and terminate), digital and analog Volt/Ohm meters, copper cable, and HST3000 meters, TDR and OTDR, light meters, TCP/IP troubleshooting, 3M Dynatel locator experience
+##### Skills and Interests
+
+* Interests: Woodworking, wood turning (pens, bowls), cycling, pc building
+* Operating Systems: Microsoft Windows, Mac OS
+* Software: Word, Excel, PowerPoint. Visual Studio Code, IntelliJ, CodeBlocks, Github, Photoshop
+* Technology and accessories: POTS, VDSL, ADSL (xDSL, bonded), ADSL2+, Cat5, Cat5e, Cat6, digital and analog Volt/Ohm meters, copper cable, TDR and OTDR, TCP/IP troubleshooting
+
+o	Experience with Python, Java, and C programming languages
+o	HTML, CSS, and some JavaScript experience – portfolio website www.josephsomerville.net
+o	Installation, repair, and support for Mac, PC, Wi-fi and general electronics including printers, badge printers, and door access systems
+o	Wire Crimping, soldering, stripping, and tie wrapping cabling
+o	Multi-meter experience (digital and analog volt/ohm meters)
+o	Knowledge of basic electrical theory
+o	Experience mounting and installing DC power supplies for fiber optic installations
+o	Trained in working at height and in confined spaces.
+o	Analyze and understand technical drawings, cable maps, blueprints
+o	Knowledge of telecom color code (fiber, copper)
+
