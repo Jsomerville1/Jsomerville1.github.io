@@ -127,12 +127,9 @@ navigation_header:
   url: /blog/
 - title: Writing Sample
   url: /writingsample/
-- title: Cover Letter
-  url: /coverletter/
 - title: Resume
   url: /resume/
-- title: Proposal Sample
-  url: /proposal/
+
 
 navigation_footer:
 - title: Theme created by David Darnes
