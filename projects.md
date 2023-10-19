@@ -9,7 +9,14 @@ aside: false
  Below you will find a list of projects that I have worked on or am currently working on.
 
 
+### Touch Grass
 
+###### Engineering Entrepreneurship Group Project
+
+Touch Grass is project for an entrepreneurship class that implementes the Lean startup method. We focus on user and partner research and interviews in order to determine product viability before a single dollar is spent on development. Touch Grass is a mobile application that connects people looking for outdoor adventures and activities with those that are organizing these events or have experience and can offer a guiding hand.
+
+##### Github Repo
+[Touch Grass](https://github.com/Josephsomerville1/touch-grass)
 
 ### Ready Pet Go
 
