@@ -20,6 +20,8 @@ Touch Grass is project for an entrepreneurship class that implementes the Lean s
 
 ### Ready Pet Go
 
+![Ready Pet Go Web App](pups.gif)
+
 ###### Shell Hacks 2023
 
 Ready Pet Go is a Tinder style interface for finding shelter animals that was implemented using Javascript, React, HTML, CSS, and auth0. This was my and my teams first hackathon and while we didn't get everything implemented, we were able to utilize PetFinder.com's API to pull images and descriptions of pets and implement them into our interface.
