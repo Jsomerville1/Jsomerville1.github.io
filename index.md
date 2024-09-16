@@ -12,7 +12,7 @@ excerpt: "Please feel free to visit my github to see what I've been working on."
 
 ## About Me
 
-My name is Joseph Somerville. I am a computer science student at the University of Central Florida, with a developing foundation in programming and work history in telecommunications. Passionate about technology, I am eager to apply my skills and knowledge in computer science-related positions, namely software engineering roles.
+My name is Joseph Somerville. I am a computer science student at the University of Central Florida with a developing foundation in programming and work history in telecommunications. Passionate about technology, I am eager to apply my skills and knowledge in computer science-related positions, namely software engineering roles.
 
 My academic journey began with an A.A. in General Studies from Lake-Sumter State College, where I made the Dean's List and received the Foundation Scholarship. Upon completing my AA degree I transferred to UCF in the fall of 2022 where I am a current undergraduate student studying computer science.
 
