@@ -1,14 +1,32 @@
-<aside class="aside  typeset  aside--{{ include.align | default: 'right' }}">
+<aside class="aside  typeset  aside--{{ include.align | default: 'left' }}">
 
   {% if page.layout == "post" %}
     <section class="section  section--related-posts">
       {% include post-related.html %}
     </section>
 
-  {% elsif page.layout == "page" or page.layout == "home" or page.layout == "blog" %}
+  {% elsif page.layout == "page" or page.layout == "home" or page.layout == "blog"  or page.layout == "default" %}
     <section class="section  section--description">
-      <h3>About this site</h3>
-      <p>{{ site.description }}</p>
+      <h3>Projects</h3>
+      {% if site.navigation_header %}
+        <nav class="aside-nav">
+          <ul>
+            {% for nav_item in site.navigation_header %}
+              <li>
+                <a href="{{ nav_item.url | relative_url }}">{{ nav_item.title }}</a>
+                {% if nav_item.children %}
+                  <ul>
+                    {% for child in nav_item.children %}
+                      <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      {% endif %}
+
       {% include nav-social.html %}
     </section>
 
