@@ -50,38 +50,23 @@ For this project I worked as the project manager, and delegated tasks to other t
 ###### Wordpress, Nginx, Ubuntu, DigitalOcean Droplets
 
 ##### Site Link
-[FavoriteLocalDentist](https://favoritelocaldentist.com/)
+[FavoriteLocalDentist](http://favoritelocaldentist.com/)
 
 FavoriteLocalDentist.com was a course project for a Web and UX course at the University of Central Florida. On this project I worked as the business analyist, and interfaced with the client to determine their needs for the website, and translated those into requirements for the design and development team.
 
 During the course of the project I was also responsible for configuring the web server via a DigitalOcean Droplet, on which we ran Ubuntu and Nginx, as well as Wordpress. 
 
 
+### Pirate Ships
+###### Knight Hacks 2024
+###### Python, pygame
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4wrOgf9LXGA?si=UjURjpdrk7r5Jm98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br>
 
+Pirate Ships is an online multiplayer battleships clone. Two players play against each other in real time.
 
-### Touch Grass
+For this project I completed the primary game and server code using python and the pygame library. The server was hosted using a Google Cloud VM, and acts as a relay between the game clients on each player's computer.
 
-###### Engineering Entrepreneurship Group Project
-
-![Touch Grass Interface Image 1](fig1.jpg) ![Touch Grass Interface Image 2](fig2.jpg)
-
-Touch Grass is project for an entrepreneurship class that implementes the Lean startup method. We focus on user and partner research and interviews in order to determine product viability before a single dollar is spent on development. Touch Grass is a mobile application that connects people looking for outdoor adventures and activities with those that are organizing these events or have experience and can offer a guiding hand.
-
-##### Github Repo
-[Touch Grass](https://github.com/jsomerville1/touch-grass)
-
-### Ready Pet Go
-
-![Ready Pet Go Web App](pups.gif)
-
-###### Shell Hacks 2023
-
-Ready Pet Go is a Tinder style interface for finding shelter animals that was implemented using Javascript, React, HTML, CSS, and auth0. This was my and my teams first hackathon and while we didn't get everything implemented, we were able to utilize PetFinder.com's API to pull images and descriptions of pets and implement them into the interface.
-
-During the project I worked on implementing Google account login via Auth0.
-
-###### DevPost
-[Ready Pet Go on DevPost](https://devpost.com/software/ready-pet-go)
-
-###### Github Repo
-[Ready Pet Go on Github](https://github.com/NicTron1/ready-pet-go)
+##### Devpost
+[Pirate Ships](https://devpost.com/software/pirateships)
