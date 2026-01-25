@@ -6,65 +6,65 @@ excerpt:
 aside: false
 ---
 
-##### Education 
+##### Education
 
-###### University of Central Florida
- 08/2022 - Present - Expected Graduation Approx Spring 2025
-    Bachelors of Computer Science 
+###### University of Central Florida - Orlando, FL
+**Bachelor of Science in Computer Science**
+Aug 2022 – Dec 2025
 
+---
 
-###### Lake-Sumter State College- Leesburg, FL
- 2006/2021-2022
- A.A. – General Studies
- Dean’s List
- Foundation Scholarship
+##### Experience
 
-###### Leesburg High School- Leesburg, FL
-Graduation 2006
- Highschool Diploma
+###### Full Stack Developer - Defense Innovation Summer Fellow
+**Tatitlek Corporation - NSIN/DIU (US Army Reserve Mercury)** | Orlando, FL | Jun 2025 – Aug 2025
 
-##### Work History
-###### Wise Connect - Clermont, FL
-###### I&R Technician, Contractor for Centurylink / Lumen - 11/2020-7/2021
-*	Install GPON FTTP high speed internet services in homes and businesses.
-*	Use power tools to mount equipment enclosures and ONTs
-*	Troubleshoot no light conditions
-*	Configure networking devices for customers
-*   Provide product information and technical information to customers 
-*	Place temporary drops and verify light levels
+* Delivered 30+ production-ready bug fixes and two new features across React Native (iOS/Android), React web, and Python/AWS APIs, strengthening mission-critical workflows for Army Reserve soldiers and leaders.
+* Owned full development life cycle for new AFTP Utilization feature - from initial mockups through API integration, cross-platform implementation, and technical documentation - enabling unit leaders to track soldier pay compliance.
+* Built Fiscal Year filtering for Battle Assembly schedule tool with bulk upload support, improving compliance tracking and streamlining administrative workflows.
+* Resolved highest-priority production bugs including a calendar crash affecting all mobile users, pay form denial logic errors, and permission assignment bugs impacting admin workflows.
+* Refined Python API endpoints (AWS Lambda, API Gateway, RDS/PostgreSQL) to support subordinate unit data access, pay compliance tracking, and permissions management.
+* **Tech:** GitHub, React Native, React, Python, AWS (Lambda, API Gateway, S3, RDS, SNS), PostgreSQL, Agile
 
+###### Install and Repair Technician
+**Wise Connect, Inc** | Clermont, FL | Nov 2020 – Jul 2021
 
-###### CenturyLink- Clermont, FL
-###### Customer Service Technician - 4/2012- 2/2018
+* Installed and repaired internet and voice networks as a contracted technician for Lumen.
+* Performed maintenance and repair on outside plant facilities.
+* Prepared fiber installation sites to ensure timely completion of service activation.
 
-*	Interact with customers to determine and solve issues related to phone, data, and television services as well as computers and other electronic devices
-*	Install and repair telephone, data, and video services including POTS, DSL, ADSL2+, VDSL, IPTV, GPON, and FTTH services to homes, businesses, and construction sites
-*	Troubleshoot complex problems using digital volt ohm meters on underground and aerial copper cable
-*	Collaborate with other technicians to complete projects
-*	Manage daily workload to complete tasks correctly and efficiently
-*	Perform maintenance of field equipment and removal of debris and overgrowth from enclosures
+---
 
-###### Volt Telecom- Clermont, FL
-###### Telecommunications Technician - 6/2011- 4/2012
-*	Complete training in telephone field service, install and troubleshoot fiber optics alongside experienced technicians
-*	Provide service and coordinate with customers to resolve issues related to telephone and internet products
-*	Install and repair POTS, ADSL, and IPTV services
+##### Projects
 
-##### Skills and Interests
+###### Army Reserve Mercury
+**React Native, PostgreSQL, AWS, Python, Agile** | Jan 2025 – Dec 2025
+*Capstone Project with Paid Fellowship Component*
 
-* Interests: Woodworking, wood turning (pens, bowls), cycling, pc building
-* Operating Systems: Microsoft Windows, Mac OS
-* Software: Word, Excel, PowerPoint. Visual Studio Code, IntelliJ, CodeBlocks, Github, Photoshop
-* Technology and accessories: POTS, VDSL, ADSL (xDSL, bonded), ADSL2+, Cat5, Cat5e, Cat6, digital and analog Volt/Ohm meters, copper cable, TDR and OTDR, TCP/IP troubleshooting
+* Served as Project Manager in partnership with US Army Reserve, leading 11 member development team through Agile Sprints while reporting directly to military stakeholders and maintaining production deployment standards.
+* Delegated tasks, coordinated Agile sprints, and interfaced with Army Reserve stakeholders to ensure alignment with requirements and on-time delivery.
+* Shipped 50+ production tickets spanning bug fixes, API enhancements, and new features including the RST Utilization dashboard, new user tutorials, and form audit logging.
 
-*	Experience with Python, Java, and C programming languages
-*	HTML, CSS, and some JavaScript experience – portfolio website www.josephsomerville.net
-*	Installation, repair, and support for Mac, PC, Wi-fi and general electronics including printers, badge printers, and door access systems
-*	Wire Crimping, soldering, stripping, and tie wrapping cabling
-*	Multi-meter experience (digital and analog volt/ohm meters)
-*	Knowledge of basic electrical theory
-*	Experience mounting and installing DC power supplies for fiber optic installations
-*	Trained in working at height and in confined spaces.
-*	Analyze and understand technical drawings, cable maps, blueprints
-*	Knowledge of telecom color code (fiber, copper)
+###### Rail Sweeper
+**Unity, C#, Blender, Unity Version Control** | Aug 2024 – Dec 2024
 
+* Designed and built a 3D rhythm game with dynamic MIDI-driven note spawning, creating a complete gameplay loop with scoring, difficulty scaling, and player statistics.
+* Developed object pooling and beat synchronization systems to optimize performance and enhance responsiveness.
+
+###### Afterwords
+**MERN Stack (MongoDB, Express, React, Node.js), TypeScript** | Sep 2024 – Nov 2024
+
+* Led development of a web and mobile "dead man's switch" app for secure message and document delivery.
+* Delegated tasks and contributed to API endpoints, front-end components, and DB implementation, keeping project on timeline.
+
+---
+
+##### Skills
+
+**Languages:** Python, JavaScript, TypeScript, Java, C, C#, C++
+
+**Frameworks:** React, React Native, Express, Node.js, Unity
+
+**Databases/Cloud:** PostgreSQL, MongoDB, AWS (Lambda, API Gateway, S3, RDS, SNS)
+
+**Other:** CI/CD, Git/GitHub, Agile, Jira/Confluence, UI/UX (Figma), OOP, Data Structures, Algorithm Design

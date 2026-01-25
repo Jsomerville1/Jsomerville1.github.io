@@ -45,16 +45,6 @@ You may like to use the app to send a location of your hike if you haven't check
 
 For this project I worked as the project manager, and delegated tasks to other team members. I also worked on API endpoints and some of the front end elements.
 
-### FavoriteLocalDentist.com
-
-###### Wordpress, Nginx, Ubuntu, DigitalOcean Droplets
-
-##### Site Link
-[FavoriteLocalDentist](http://favoritelocaldentist.com/)
-
-FavoriteLocalDentist.com was a course project for a Web and UX course at the University of Central Florida. On this project I worked as the business analyist, and interfaced with the client to determine their needs for the website, and translated those into requirements for the design and development team.
-
-During the course of the project I was also responsible for configuring the web server via a DigitalOcean Droplet, on which we ran Ubuntu and Nginx, as well as Wordpress. 
 
 
 ### Pirate Ships
