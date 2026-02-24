@@ -1,11 +1,6 @@
 ---
 title: Writing Sample
-feature_text: |
-  Writing Sample - Instructions
-feature_image: "https://picsum.photos/2560/600?image=873"
-excerpt: "Below you will find a writing sample that was completed for an assignment in a technical writing class.
-The assignment involved identifying a specific process, breaking it down into steps, and creating a set of detailed
-instructions designed for a specific target audience."
+excerpt: "Below you will find a writing sample that was completed for an assignment in a technical writing class. The assignment involved identifying a specific process, breaking it down into steps, and creating a set of detailed instructions designed for a specific target audience."
 aside: true
 ---
 

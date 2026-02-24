@@ -1,1 +1,91 @@
-<!-- Overwrite this file with code you want before the closing body tag -->
+<script>
+(function() {
+  // Check for reduced motion preference
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Sticky header with shrink effect
+  const header = document.querySelector('.header');
+  if (header) {
+    let lastScrollY = window.scrollY;
+    const scrollThreshold = 50;
+
+    function updateHeader() {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY > scrollThreshold) {
+        header.classList.add('header--scrolled');
+      } else {
+        header.classList.remove('header--scrolled');
+      }
+
+      lastScrollY = currentScrollY;
+    }
+
+    // Initial check
+    updateHeader();
+
+    // Throttled scroll handler
+    let ticking = false;
+    window.addEventListener('scroll', function() {
+      if (!ticking) {
+        window.requestAnimationFrame(function() {
+          updateHeader();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    }, { passive: true });
+  }
+
+  // Smooth scroll for anchor links
+  if (!prefersReducedMotion) {
+    document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+      anchor.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+
+        const target = document.querySelector(targetId);
+        if (target) {
+          e.preventDefault();
+          const headerOffset = header ? header.offsetHeight : 0;
+          const elementPosition = target.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset - 20;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  }
+
+  // Intersection Observer for fade-in animations
+  if (!prefersReducedMotion) {
+    const animateElements = document.querySelectorAll('.animate-on-scroll, .fade-in-up, .fade-in-left, .fade-in-right, .scale-in');
+
+    if (animateElements.length > 0 && 'IntersectionObserver' in window) {
+      const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      });
+
+      animateElements.forEach(function(el) {
+        observer.observe(el);
+      });
+    }
+  } else {
+    // If reduced motion, make all animated elements visible immediately
+    document.querySelectorAll('.animate-on-scroll, .fade-in-up, .fade-in-left, .fade-in-right, .scale-in').forEach(function(el) {
+      el.classList.add('is-visible');
+    });
+  }
+})();
+</script>

@@ -19,7 +19,6 @@ exclude:
 - CNAME
 - Gemfile
 - Gemfile.lock
-- alembic-jekyll-theme.gemspec
 - .jekyll-cache
 
 # 2. Installed Gems
@@ -33,7 +32,6 @@ plugins:
 - jekyll-commonmark
 - jekyll-include-cache
 - jemoji
-- jekyll-remote-theme
 
 # 3. Gem settings
 paginate: 2 # jekyll-paginate > items per page
@@ -63,12 +61,9 @@ timezone: America/New_York # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Posts # Needed for Siteleaf
+    title: Posts
     output: false
-    description: "Reflections" # The post list page content
-    feature_text: |
-      Welcome to the Blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+    description: "Reflections"
 
 # 6. Jekyll collections settings
 defaults:
@@ -93,14 +88,14 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "Joseph Somerville - Portfolio" # Site name or title, also used in jekyll-seo-tag
+title: "Joseph Somerville" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Joseph Somerville's Portfolio" # Site description and default description, also used in jekyll-seo-tag
 url: "" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "jsomerville1.github.io"
 email: "joseph.somerville01@gmail.com"
-# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
+# disqus: "" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
 # google_analytics: ""
 # google_analytics_anonymize_ip: ""
@@ -130,14 +125,15 @@ navigation_header:
 
 
 navigation_footer:
-- title: Theme created by David Darnes
-  url: https://darn.es
+- title: Joseph Somerville
+  url: /
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   # Twitter: 
   LinkedIn: https://www.linkedin.com/in/joseph-somerville1
   GitHub: https://github.com/jsomerville1
-  link: josephsomerville.net
+  link: https://josephsomerville.net
+  ItchIO: https://joeso.itch.io/
   #RSS: /feed.xml
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
@@ -152,6 +148,4 @@ fonts:
   preconnect_urls:
     - https://fonts.gstatic.com
   font_urls:
-    - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
-
-remote_theme: daviddarnes/alembic@main
+    - https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400&display=swap

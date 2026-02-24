@@ -1,7 +1,5 @@
 ---
-title: 
-feature_text: |
-feature_image: "https://picsum.photos/2560/600?image=873"
+title: Projects
 excerpt: "Projects"
 aside: false
 ---
@@ -15,7 +13,10 @@ aside: false
 <br>
 
 ##### Repo
-[Rail Sweeper](https://github.com/Jsomerville1/RailSweeper)
+[GitHub - Rail Sweeper](https://github.com/Jsomerville1/RailSweeper)
+
+#### Download
+[Itch.io - Rail Sweeper](https://joeso.itch.io/rail-sweeper)
 
 Rail Sweeper is a 3D first-person perspective rhythm game built using Unity and C#. The game was designed and built as a course project for "AI For Game Programming" at the University of Central Florida during the Fall 2024 semester. In Rail Sweeper you click floating notes to clear a path for the train you are riding on, and must also deal with "hold notes" that spawn directly on the track itself. All of this is done in perfect time with the song's beat.
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-US" }}" style="scroll-behavior: smooth;">
 
   <head>
     <!-- General meta -->
@@ -47,6 +47,8 @@
 
   <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
     {% include site-icons.svg %}
+
+    {% include site-sidebar.html %}
 
     {{ content }}
 

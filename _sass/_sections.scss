@@ -1,0 +1,136 @@
+// Section Styling
+@use "settings" as *;
+
+// Alternating section backgrounds
+.section {
+  padding: 3rem 0;
+}
+
+.section--alt {
+  background: $altBackgroundColour;
+}
+
+// Main content area
+.main {
+  padding-top: 1rem;
+}
+
+// Content sections with alternating backgrounds
+.content {
+  > section:nth-child(even),
+  > .section:nth-child(even) {
+    background: $altBackgroundColour;
+    margin-left: -5%;
+    margin-right: -5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+// Footer dark styling
+.footer {
+  background: $headingColour;
+  color: $captionColour;
+  margin-top: auto;
+
+  a {
+    color: $captionColour;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  .nav--social a {
+    .icon {
+      fill: $captionColour;
+      transition: fill 0.2s ease;
+    }
+
+    &:hover .icon {
+      fill: $white;
+    }
+  }
+
+  .small {
+    opacity: 0.7;
+  }
+}
+
+// Divider styling
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba($captionColour, 0.3),
+    transparent
+  );
+  margin: 2.5rem 0;
+}
+
+// Block quotes
+blockquote {
+  border-left: 4px solid $primaryColour;
+  padding-left: 1.5rem;
+  margin-left: 0;
+  color: $bodyColour;
+  font-style: italic;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+// Code blocks
+pre {
+  background: $codeBackgroundColour;
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-x: auto;
+
+  code {
+    background: none;
+    padding: 0;
+  }
+}
+
+code {
+  background: $codeBackgroundColour;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+// Lists styling
+.typeset {
+  ul, ol {
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+
+    li::before {
+      content: '→';
+      color: $primaryColour;
+      display: inline-block;
+      width: 1.5em;
+      margin-left: -1.5em;
+    }
+  }
+}
+
+// Reduced motion
+@media (prefers-reduced-motion: reduce) {
+  .footer a,
+  .footer .nav--social a .icon {
+    transition: none;
+  }
+}
