@@ -1,0 +1,127 @@
+// Navigation Styles - Sticky Header with Shrink Effect
+@use "settings" as *;
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba($backgroundColour, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba($headingColour, 0.1);
+  transition: all 0.3s ease;
+
+  .container {
+    padding: 1rem 0;
+    transition: padding 0.3s ease;
+  }
+
+  .logo img {
+    transition: max-height 0.3s ease;
+  }
+
+  // Scrolled/shrunk state
+  &.header--scrolled {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+    .container {
+      padding: 0.5rem 0;
+    }
+
+    .logo img {
+      max-height: 3.5rem;
+    }
+  }
+}
+
+// Navigation links
+.nav {
+  a {
+    position: relative;
+    color: $bodyColour;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 0.75rem;
+    transition: color 0.2s ease;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0.75rem;
+      right: 0.75rem;
+      height: 2px;
+      background: $primaryColour;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.3s ease;
+    }
+
+    &:hover {
+      color: $primaryColour;
+
+      &::after {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+    }
+  }
+}
+
+// Active page styling
+.item--current a,
+.item--nav a[aria-current="page"] {
+  color: $primaryColour;
+
+  &::after {
+    transform: scaleX(1);
+  }
+}
+
+// Social nav icons
+.nav--social {
+  a {
+    padding: 0.4rem;
+
+    &::after {
+      display: none;
+    }
+
+    .icon {
+      transition: fill 0.2s ease, transform 0.2s ease;
+    }
+
+    &:hover .icon {
+      fill: $primaryColour;
+      transform: scale(1.1);
+    }
+  }
+}
+
+// Mobile nav button
+.button--nav {
+  background: none;
+  border: none;
+  color: $bodyColour;
+
+  &:hover {
+    color: $primaryColour;
+    box-shadow: none;
+  }
+
+  &:focus {
+    outline-color: $primaryColour;
+  }
+}
+
+// Reduced motion support
+@media (prefers-reduced-motion: reduce) {
+  .header,
+  .header .container,
+  .header .logo img,
+  .nav a::after {
+    transition: none;
+  }
+}

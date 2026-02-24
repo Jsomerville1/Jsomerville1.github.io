@@ -1,0 +1,20 @@
+<aside class="sidebar" aria-label="Social links">
+  <nav class="sidebar__nav">
+    {% for link in site.social_links %}
+      {% if link[1] != blank %}
+        {% assign id = link[0] | downcase %}
+        {% if id == "link" %}
+          {% continue %}
+        {% endif %}
+        <a href="{{ link[1] }}" class="sidebar__link" title="{{ link[0] }}" target="_blank" rel="noopener">
+          {% if id == "itchio" %}
+            <img src="{{ '/assets/logos/itchio-textless-black.svg' | relative_url }}" alt="itch.io" class="sidebar__icon sidebar__icon--img" />
+          {% else %}
+            {% assign linkTitle = link[0] %}
+            {% include icon.html id=id title=linkTitle width="20" height="20" %}
+          {% endif %}
+        </a>
+      {% endif %}
+    {% endfor %}
+  </nav>
+</aside>

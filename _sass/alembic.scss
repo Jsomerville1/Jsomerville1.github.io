@@ -1,11 +1,38 @@
 @charset "utf-8";
 
-// Import frameworks & theme styles
-@import
-  "normalize",
-  "settings",
-  "sassline-base",
-  "syntax",
-  "flex",
-  "theme"
-;
+// Load built-in sass modules
+@use "sass:map";
+@use "sass:list";
+@use "sass:math";
+@use "sass:meta";
+@use "sass:string";
+
+// Load normalize first (no dependencies)
+@use "normalize";
+
+// Load settings (all variables in one place)
+@use "settings" as *;
+
+// Load modular scale (depends on nothing)
+@use "sassline-base/modular-scale" as *;
+
+// Load sassline mixins (depends on variables and modular-scale)
+@use "sassline-base/mixins" as *;
+
+// Load sassline reset and typography
+@use "sassline-base/reset";
+@use "sassline-base/typography";
+
+// Load syntax highlighting
+@use "syntax";
+
+// Load flex utilities
+@use "flex" as *;
+
+// Load theme and component styles
+@use "theme";
+@use "navigation";
+@use "project-cards";
+@use "animations";
+@use "sections";
+@use "sidebar";

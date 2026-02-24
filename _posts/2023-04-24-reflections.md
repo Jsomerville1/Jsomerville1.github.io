@@ -2,7 +2,6 @@
 title: Reflections on Creating my Portfolio Website
 categories:
 - General
-feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 
 So far, my portfolio page is coming along nicely. I have been able to register a custom domain name and am using Github Pages to host the website for free. I have used a custom Jekyll theme to create the overall look of the page, which has saved a great deal of trouble in trying to code something from scratch. It has also allowed me a great deal of control over how my portfolio looks, as I am not stuck with what could be a limited website building tool.

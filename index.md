@@ -1,9 +1,5 @@
 ---
 title: Portfolio
-feature_text: |
-  ## Joseph Somerville - Portfolio
-  My portfolio and projects
-feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Please feel free to visit my github to see what I've been working on."
 ---
 
@@ -12,13 +8,13 @@ excerpt: "Please feel free to visit my github to see what I've been working on."
 
 ## About Me
 
-My name is Joseph Somerville. I am a computer science student at the University of Central Florida with a strong interest in web and software development and work history in IT and telecom. Passionate about technology, I am eager to apply my skills and knowledge in computer science-related positions, namely software engineering roles.
+My name is Joseph Somerville. I'm a full stack developer and recent Computer Science graduate from the University of Central Florida with hands-on experience building and shipping production software for the U.S. Army Reserve.
 
-My academic journey began with an A.A. in General Studies from Lake-Sumter State College, where I made the Dean's List and received the Foundation Scholarship. Upon completing my AA degree I transferred to UCF in the fall of 2022 where I am a current undergraduate student studying computer science. I plan to graduate Decemeber 2025.
+As a Defense Innovation Summer Fellow through NSIN and the Defense Innovation Unit, I worked on Project Mercury — a cross-platform application modernizing administrative workflows for over 400 soldiers. I also served as Project Manager for an 11-member Agile team on Project Mercury for my senior design project, and personally delivered 80+ production tickets spanning React Native mobile development, Python back-end services on AWS (Lambda, API Gateway, RDS), and PostgreSQL database work.
 
-In my pursuit of a computer science career, I have gained proficiency in programming languages like Python, C, JavaScript, C#, and Java and I am proficient with git and Github. I am also well versed in using software such as Visual Studio Code, intelliJ, cLion, and Unity.
+ My contributions included engineering the AFTP and RST Utilization tracking features end-to-end across web and mobile, architecting a dynamic form field highlighting system for Pay Admin feedback, building out multi-stage audit logging, standardizing timezone logic across the full stack, and revamping the bulk BA date upload engine with validation and error handling. I also helped develop a new user onboarding tutorial system, and personally created new user tutorial videos for Army Reserve leaders, soldiers, and pay administators to reduce training time and and "knowledge" fade for periodic users of the application.
 
-My work history in the telecommunications and IT field has provided me with valuable hands-on experience in installing, troubleshooting, and repairing a wide range of services and technologies. This experience has honed my ability to collaborate with team members, manage daily workloads efficiently, and provide exceptional customer service. It has also given me a keen ability to troubleshoot complex problems that arise within any field that I am working in.
+I'm proficient in Python, JavaScript, TypeScript, Java, C, and C#, and I work with frameworks and tools like React, React Native, Node.js, Express, PostgreSQL, MongoDB, and AWS. I have a strong foundation in Agile development, CI/CD, and collaborative workflows using Git, GitHub, Jira, and Confluence.
 
-As a current computer science student at the University of Central Florida, I am excited to leverage my education, work experience, and technical skills to contribute to the success of innovative organizations in the software engineering field.
+I'm looking for software engineering roles where I can continue building impactful applications and contribute to teams solving real-world problems. I am interested in full stack, front end, or back end positions. I'm a fast learner especially when presented with real world problems, and I'm eager to contribute to software teams. I am looking for in office, hybrid, or remote positions within the continental United States. I am willing to relocate!
 

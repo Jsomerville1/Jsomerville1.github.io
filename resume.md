@@ -1,7 +1,5 @@
 ---
-title: Resume - Joseph Somerville
-feature_text: |
-feature_image: "https://picsum.photos/2560/600?image=880"
+title: Resume
 excerpt:
 aside: false
 ---
