@@ -4,6 +4,44 @@ excerpt: "Projects"
 aside: false
 ---
 
+### Army Reserve Mercury
+###### React Native, AWS (Lambda, S3, API Gateway, RDS), Python, PostgreSQL, JavaScript
+
+Army Reserve Mercury is a mobile and web application that streamlines administrative processes for Army Reserve soldiers and leaders. Reserve Mercury served as my senior design project where I led a team of 11 developers to introduce three new features, a multitude of bug fixes, and backend improvements to make the application more stable and useful to its end users. During my year on the project, I also completed a paid summer fellowship program in which I worked with 5 other developers full time on the application.
+
+Below I will list my accomplishments during the senior design project and the fellowhsip:
+
+##### Senior Design
+
+During my time as project manager for Reserve Mercury's senior design semesters (Spring and Fall 2025) we delivered three new features. These included the RST Utilization page, form field highlighting for pay forms returned for correction, as well as a form audit log, and a guided user tutorial with separate tutorial flows for leaders, pay admins, and soldiers. I also created a series of tutorial videos for leaders, for pay admins, and for soldiers. These videos are a guide for new or returning users to get up to speed with how the application works and the different features available to the users. 
+
+###### RST Utilization
+
+The RST Utilization page tracks RST forms, or rescheduled training forms, and is accessible by Army Reserve leaders to track which soldiers have submitted RST forms for each battle assembly date (BA Date). The leader can select different units if they are in charge of multiple, and then select a specific BA Date to view. This shows a list of every soldier in the unit, whether or not they have an RST submitted for that date, and how many RSTs they have submitted for the fiscal year. The leader can also select any solider from the list to view all of that soldiers RST forms as well as the status of these forms. These features make it easy to quickly see which soldiers and how many of them will be absent from an upcoming battle assembly. The submitted makeup days are also viewable with the RST Utiliztion page.
+
+###### Form Field Highlights and Audit Log
+
+A pay form for Reserve soldiers goes through multiple processes before it is considered fully approved. The final step is for a pay administrator to check the form over and approve it, unless they find an error in the form. Prior to this new feature it could be confusing for a leader to have approved a form which later is denied by a pay admin and resubmitted by the soldier. This led to the approver questioning why the form was back in their approval queue. The new form audit logs tracks all approvals, denials, and resubmissions. This way the approver knows that the form has already been approved and is simply being resubmitted.
+
+The other portion of this new feature is form field highlighting. When a form is deneid by a pay administator, the admin can now select which field on the pay form has the error, and leave a comment about what specifically needs correction. Then when the soldier opens the form to correct it, the field is highlighted and the comment is easily viewable so that they know at a glance what needs to be fixed.
+
+###### User Tutorial
+
+These interactive click-through tutorials appear for every new user on their first login, or for any user that has not completed them yet. The user has the option to skip the tutorial, click through with the "Next" and "Back" buttons, or follow each instruction in the actual application, which auto advances the tutorial as the user completes each step.
+
+Multiple click-through tutorials were created such that there are separate guides for enlisted soldiers, leaders, and pay administators. This way each user gets a customized interactive guide for their specific use case. The user's tutorial status is tracked with a column in the users table that tracks whether the user has seen the mobile and web versions of the tutorial. Completing the tutorial or selecting the do not show option trigger the status such that the pop up is no longer displayed for that user.
+
+#### Defense Innovation Fellowship
+
+During the summer fellowship my duties included multiple bug fixes and the AFTP Utilziation feature, which I engineered from mockup to full implemented feature in the front and back end, and on both the mobile and web versions of the application. The AFTP Utilization feature tracks flight data for flight units in the Army Reserve. This is critical information for leaders of these units, as this data is at times the subject of aduits, and ensuring that it is accurate is very important.
+
+The tool implements a few different features. Leaders can select any unit that they have access to, which provides a table of every solider in the unit. Each soldier's flight statisics are displayed, including the number of AFTP (Additional Flying Training Period) forms submitted for the fiscal year, the number of forms approved, and the number of forms paid. If there is a discrepancy between the number of forms stored in the database and the soldier's current "AFTP Number", then a warning is displayed, and the leader can select that solider to view more information.
+
+A list is then displayed of all of the soldiers AFTP forms by AFTP number. Any missing forms are highlighted in red, and the leader can then manually enter that form if they have the paper copy, ensuring that the data stored in the application is accurate for audit purposes.
+
+
+
+
 ### Rail Sweeper
 ###### Unity Game Engine, C#, Blender, Unity Version Control
 <br>
